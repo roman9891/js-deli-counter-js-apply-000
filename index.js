@@ -20,3 +20,11 @@ const currentLine = line => {
   
   return lineStr
 }
+
+let ticketNumber = 0
+
+const advancedTakeANumber = () => {
+  ticketNumber += 1
+  
+  return ticketNumber - 1
+}
